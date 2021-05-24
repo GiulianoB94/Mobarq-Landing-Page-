@@ -1,0 +1,280 @@
+
+/*----------------------------------------------------- Sección: Productos --------------------------------------------------------*/
+
+.tituloCat {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tituloCat h2 {
+    margin-top: 40px;
+    font-size: 5em;
+    font-family: 'Assistant', sans-serif;
+    letter-spacing: 10px;
+  
+  }
+  
+  .diseño {
+    margin: 30px;
+    display: flex;
+  }
+  
+  .diseño img {
+    width: 800px;
+  }
+  
+  
+  .tarj-conte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  }
+  
+  .conte {
+  height: 410px;
+  width: 25%;
+  margin: 30px 30px;
+  background-color: rgba(212, 212, 212, 0.473);
+  border-radius: 2px;
+  }
+  
+  
+  .conte .tarj {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 170px;  
+  }
+  
+  .tarj img {
+  height: 280px;
+  width: 280px;
+  position: relative;
+  bottom: 15px;
+  left: 20px;
+  }
+  
+  
+  
+  .info {
+  height: 80px;
+  width: 100%;
+  }
+  
+  .info h1 {
+  font-family: sans-serif;
+  font-size: 2.2em;
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+  }
+  
+  .info p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.9em;
+  color: #555;
+  }
+  
+  .precio {
+  height: 59px;
+  width: 100%;
+  margin: auto;
+  border-radius: 1px 1px 7px 7px;
+  background-color: #f5f5f5;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  }
+  
+  .box-precio {
+  width: 80px;
+  }
+  
+  .precio1 {
+  color: red;
+  font-size: 1.5em;
+  text-decoration: line-through;
+  }
+  
+  .precio .precio2 {
+  font-size: 1.5em;
+  }
+  
+  .shoping {
+  font-size: 2.5em;
+  color: #555;
+  }
+  
+  
+  /*----------------------------------------------------- Sección --------------------------------------------------------*/
+  
+  
+  .main {
+    width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 80px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+   
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .content {
+    background-color: rgb(150, 148, 148);
+    padding: 10px;
+    box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.637);
+    border-radius: 10px;
+  }
+  
+  .column .content img {
+    border-radius: 10px;
+  }
+  .column .content h3 {
+    font-size: 30px;
+  }
+  .column .content p {
+    font-size: 15px;
+  }
+  
+  
+  .headerProd {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #17181b;
+    
+  }
+  
+  .headerProd img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 70px;
+    
+  }
+  
+  .carrousel {
+    width: 100vw;
+    margin-bottom: 80px;
+    position: relative;
+    top: 100px;
+    right: 16px;
+  }
+  
+  .sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+  }
+  
+  
+  .logoCab {
+    width: 100%;
+    height:100px;
+    margin-top: 120px;
+    object-fit:contain;
+    
+  }
+  
+  .textoCat {
+    width: 100vw;
+    position: relative;
+    top: 50px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: rgb(112, 117, 114);
+    background-color: rgb(235, 230, 230);
+    text-align:justify;
+  }
+  
+  .textoCat p {
+    text-align: center;
+    margin: 50px 50px;
+  }
+  
+  .titles {
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 100px;
+    animation-duration: 4s;
+    animation-name: titulos;
+  }
+  
+  
+  .botones {
+    display:block;
+    justify-content: space-evenly;
+    
+  }
+  
+  .botones .boton-1 {
+    margin-right: 40px;
+    width: 100px;
+    height: 30px;
+    background-color: #f0eeee;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.466);
+    border-style: none;
+    
+  }
+  
+  .botones .boton-1 a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #111;
+    font-family: "Baloo Da 2", serif;
+    
+  }
+  
+  .botones .boton-2 {
+    width: 100px;
+    height: 30px;
+    background-color: #f0eeee;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.466);
+    border-style: none;
+  }
+  
+  .botones .boton-2 a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #111;
+    font-family: "Baloo Da 2", serif;
+  }
+  
+  #interior {
+    min-height: 100%;
+  }
+  
